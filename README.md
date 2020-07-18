@@ -213,3 +213,86 @@ public class MainAppClient {
         </constructor-arg>
     </bean>
 </beans>
+
+
+
+
+
+C:\USERS\D951857\WORKSPACE\SPRINGCOREWS\SPRING-INNER-BEAN-INJECTION-EXAMPLE
+|   pom.xml
+|   Spring-Inner-Bean-Injection-Example.iml
+|
++---.idea
+|       .gitignore
+|       compiler.xml
+|       jarRepositories.xml
+|       misc.xml
+|       uiDesigner.xml
+|       workspace.xml
+|
++---src
+|   +---main
+|   |   +---java
+|   |   |   \---com
+|   |   |       \---docsconsole
+|   |   |           \---spring5
+|   |   |               \---innerbean
+|   |   |                   \---xml
+|   |   |                       +---constructorinjectior
+|   |   |                       |       AInnerSpringBean.java
+|   |   |                       |       ASpringBean.java
+|   |   |                       |       MainAppClient.java
+|   |   |                       |
+|   |   |                       \---setterinjection
+|   |   |                               AInnerSpringBean.java
+|   |   |                               ASpringBean.java
+|   |   |                               MainAppClient.java
+|   |   |
+|   |   \---resources
+|   |           spring-beans.xml
+|   |           spring-beans1.xml
+|   |
+|   \---test
+|       \---java
+\---target
+    |   Spring-Inner-Bean-Injection-Example-1.0-SNAPSHOT.jar
+    |
+    +---classes
+    |   |   spring-beans.xml
+    |   |   spring-beans1.xml
+    |   |
+    |   \---com
+    |       \---docsconsole
+    |           \---spring5
+    |               \---innerbean
+    |                   +---annotations
+    |                   |       AppConfig.class
+    |                   |       ASpringBean.class
+    |                   |       MainAppClient.class
+    |                   |
+    |                   \---xml
+    |                       +---constructorinjectior
+    |                       |       AInnerSpringBean.class
+    |                       |       ASpringBean.class
+    |                       |       MainAppClient.class
+    |                       |
+    |                       \---setterinjection
+    |                               AInnerSpringBean.class
+    |                               ASpringBean.class
+    |                               MainAppClient.class
+    |
+    +---generated-sources
+    |   \---annotations
+    +---maven-archiver
+    |       pom.properties
+    |
+    \---maven-status
+        \---maven-compiler-plugin
+            +---compile
+            |   \---default-compile
+            |           createdFiles.lst
+            |           inputFiles.lst
+            |
+            \---testCompile
+                \---default-testCompile
+                        inputFiles.lst
