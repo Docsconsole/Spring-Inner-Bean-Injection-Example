@@ -218,6 +218,13 @@ public class MainAppClient {
 
 
 
+
+
+
+
+Project Structure
+
+
 C:\USERS\D951857\WORKSPACE\SPRINGCOREWS\SPRING-INNER-BEAN-INJECTION-EXAMPLE
 |   pom.xml
 |   Spring-Inner-Bean-Injection-Example.iml
